@@ -1,7 +1,7 @@
 # 柴嗅（ChaiSniffer）隐私政策
 
 **最后更新：** 2026-08-31  
-**适用范围：** 柴嗅浏览器扩展、Windows 本机 Host 组件
+**语言：** [简体中文](PRIVACY.md) | [繁體中文](PRIVACY.zh-TW.md) | [English](PRIVACY.en.md)
 
 ---
 
