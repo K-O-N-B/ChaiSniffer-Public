@@ -19,6 +19,6 @@
 | `host_permissions: http(s)://*/*` | 在所有站点嗅探（用户可配置黑白名单） | 否 |
 | `host_permissions: file:///*` | 本地 HTML 文件页面测试 | 否 |
 
-**Content scripts** 在页面主世界注入钩子以捕获媒体地址与可选深度搜钥（默认关闭）。不修改页面 UI，不向远程服务器发送页面内容。
+**Content scripts** 在页面主世界注入钩子以捕获媒体地址与可选深度搜钥（默认关闭）。页面上的 **柴嗅浮动图标**（v0.9.16+，默认开启）由 content script 渲染，用户可在设置中关闭；**不新增** manifest 权限。不修改第三方页面原有 UI，不向远程服务器发送页面内容。
 
 **本机 Host** 不在扩展包内；用户从 GitHub Releases 自行安装，扩展仅通过 Native Messaging 与其通信。

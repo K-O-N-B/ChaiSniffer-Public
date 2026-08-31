@@ -4,7 +4,9 @@
 
 **柴嗅** 是一款浏览器扩展 + Windows 辅助应用：在网页上发现媒体地址，在本机下载或交给**外部播放器**打开。
 
-> 扩展可从 **Microsoft Edge 加载项** 安装；**辅助应用需单独下载**（见 [Releases](https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest)）。
+> 扩展可从 **Microsoft Edge 加载项** 安装（**v0.9.16 审核准备中**）；**辅助应用需单独下载**（见 [Releases](https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest)）。
+
+**当前版本：** 扩展 **0.9.16** · 辅助应用 **host-v0.9.14.1+** · [更新说明](RELEASE_NOTES/v0.9.16.md)
 
 ---
 
@@ -60,6 +62,7 @@
 | 能力 | 说明 |
 |------|------|
 | 嗅探 | 发现 HLS / DASH / 直链 |
+| 浮动图标 | 视频上一键打开播放器（v0.9.16，可在设置关闭） |
 | 本机下载 | 非 DRM HLS（需辅助应用） |
 | 外部播放 | **推荐 mpv**；NeoPlayer 开发中；其他播放器兼容性不确定 |
 | 安全 | 拒绝商业 DRM |

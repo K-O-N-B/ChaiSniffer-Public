@@ -32,7 +32,10 @@
 
 ## 播放器
 
-在擴充功能 **播放器設定** 中填寫 mpv、VLC、PotPlayer 或 **NeoPlayer** 的路徑。推薦 [NeoPlayer](https://github.com/K-O-N-B/NeoPlayer/releases/latest)（安裝包準備中）。
+在擴充功能 **播放器設定** 中填寫 **[mpv](https://mpv.io/)**（**目前推薦**）、VLC、PotPlayer 等路徑。  
+**NeoPlayer**（作者自用）仍在開發中，之後會發布 Release；現階段請優先使用 mpv。
+
+**浮動圖標：** 設定 → 嗅探 → **顯示視頻浮動圖標**（v0.9.16+，預設開啟，可關閉）。
 
 ---
 

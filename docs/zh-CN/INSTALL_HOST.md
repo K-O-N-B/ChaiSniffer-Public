@@ -32,7 +32,10 @@
 
 ## 播放器
 
-在扩展 **播放器设置** 中填写 mpv、VLC、PotPlayer 或 **NeoPlayer** 的路径。推荐 [NeoPlayer](https://github.com/K-O-N-B/NeoPlayer/releases/latest)（安装包准备中）。
+在扩展 **播放器设置** 中填写 **[mpv](https://mpv.io/)**（**当前推荐**）、VLC、PotPlayer 等路径。  
+**NeoPlayer**（作者自用）仍在开发中，之后会发布 Release；现阶段请优先使用 mpv。
+
+**浮动图标：** 设置 → 嗅探 → **显示视频浮动图标**（v0.9.16+，默认开启，可关闭）。
 
 ---
 

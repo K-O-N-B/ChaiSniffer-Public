@@ -32,7 +32,10 @@ The zip usually includes: `native-host/`, `setup-bridge.cmd`, and bundled `bin/f
 
 ## Player
 
-In **Player settings**, set the path to mpv, VLC, PotPlayer, or **NeoPlayer**. [NeoPlayer](https://github.com/K-O-N-B/NeoPlayer/releases/latest) is recommended (release pending).
+In **Player settings**, set the path to **[mpv](https://mpv.io/)** (**recommended today**), VLC, PotPlayer, etc.  
+**NeoPlayer** (author’s daily player) is **still in development** — use mpv for now.
+
+**Float icon:** Settings → Sniffing → **Show floating video icon** (v0.9.16+, on by default, can disable).
 
 ---
 

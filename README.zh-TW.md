@@ -4,7 +4,9 @@
 
 **柴嗅** 是一款瀏覽器擴充功能 + Windows 輔助應用程式：在網頁上發現媒體位址，在本機下載或交給**外部播放器**開啟。
 
-> 擴充功能可從 **Microsoft Edge 載入項目** 安裝；**輔助應用程式需單獨下載**（見 [Releases](https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest)）。
+> 擴充功能可從 **Microsoft Edge 載入項目** 安裝（**v0.9.16 審核準備中**）；**輔助應用程式需單獨下載**（見 [Releases](https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest)）。
+
+**目前版本：** 擴充功能 **0.9.16** · 輔助應用程式 **host-v0.9.14.1+** · [更新說明](RELEASE_NOTES/v0.9.16.md)
 
 ---
 
