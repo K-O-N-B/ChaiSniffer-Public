@@ -4,9 +4,9 @@
 
 ChaiSniffer is a browser extension + Windows helper app that discovers media URLs on web pages and opens them in an **external player** or downloads them locally.
 
-> Install the extension from **Microsoft Edge Add-ons** (**v0.9.16 approved**). Chrome Web Store submission is in progress. Download the **helper app** from [Releases](https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest).
+> Install the extension from **Microsoft Edge Add-ons** (**v0.9.16 approved**; **0.9.17** via sideload or pending store update). Chrome Web Store submission is in progress. Download the **helper app** from [Releases](https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest).
 
-**Current versions:** Extension **0.9.16** · Helper **host-v0.9.14.1+** · [Release notes](RELEASE_NOTES/v0.9.16.md)
+**Current versions:** Extension **0.9.17** · Helper **host-v0.9.17** · [Release notes](RELEASE_NOTES/v0.9.17.md)
 
 ---
 

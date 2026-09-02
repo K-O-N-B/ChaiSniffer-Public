@@ -1,7 +1,7 @@
 # Edge 商店提交清单（维护者）
 
-> **扩展版本：** 0.9.16  
-> **提交包路径（本地）：** `MPV-Bridge/dist-release/ChaiSniffer-Extension-v0.9.16.zip`  
+> **扩展版本：** 0.9.17  
+> **提交包路径（本地）：** `MPV-Bridge/dist-release/ChaiSniffer-Extension-v0.9.17.zip`  
 > **Partner Center：** https://partner.microsoft.com/dashboard/microsoftedge/overview
 
 ---
@@ -35,11 +35,11 @@
 
 ## 三、提交前自检
 
-- [ ] zip 内根目录有 `manifest.json`，`version` 为 `0.9.16`
+- [ ] zip 内根目录有 `manifest.json`，`version` 为 `0.9.17`
 - [ ] zip **不含** `tools/`、`.git`、源码注释外的开发文件
-- [ ] 本地侧载 zip 加载后：Popup 正常、设置页可打开、浮动图标开关有效
+- [ ] 本地侧载 zip 加载后：Popup 正常、设置页可打开、下载目录可保存、浮动图标开关有效
 - [ ] 隐私政策 URL 在浏览器可打开（未登录 GitHub 也可访问 raw 或 blob 页）
-- [ ] Host Release 页可下载（审核员可能点链接）
+- [ ] Host Release `host-v0.9.17` 页可下载（审核员可能点链接）
 
 ---
 
