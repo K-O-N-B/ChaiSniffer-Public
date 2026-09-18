@@ -1,6 +1,6 @@
 # Notes for Microsoft Edge Add-ons certification
 
-**Product:** ChaiSniffer (柴嗅) v0.9.16  
+**Product:** ChaiSniffer (柴嗅) v0.9.17  
 **Type:** Manifest V3 browser extension + separately installed Windows Native Host
 
 ---
@@ -11,21 +11,24 @@ ChaiSniffer **sniffs media URLs** on web pages the user visits and optionally **
 
 The extension uses **Native Messaging** to talk to a **helper app the user installs separately** from GitHub (not bundled in the store package). This matches Microsoft policy for companion native software installed outside the store.
 
+**This update (0.9.17):** download directory setting persistence; Host writes finished files to that folder; fMP4 merge fix. **Requires helper app host-v0.9.17.** No new manifest permissions vs 0.9.16.
+
 ---
 
 ## How to test end-to-end (Windows)
 
-1. Install the extension from this submission package (or sideload for pre-review).
+1. Install the extension from this submission package.
 2. Open extension **Settings** → copy **Extension ID**.
 3. Download **Windows helper app** from:  
-   https://github.com/K-O-N-B/ChaiSniffer-Public/releases/latest  
-   File: `ChaiSniffer-Host-Windows-x64-v0.9.14.1.zip` (or newer).
+   https://github.com/K-O-N-B/ChaiSniffer-Public/releases/tag/host-v0.9.17  
+   File: `ChaiSniffer-Host-Windows-x64-v0.9.17.zip` (**required**; older Host lacks download-dir / fMP4 fixes).
 4. Extract zip anywhere → run `native-host\setup-bridge.cmd` → paste Extension ID.
 5. In Settings → **Run full self-check** → all items should pass (Host, ffmpeg, player path if configured).
-6. Visit a page with **public non-DRM HLS** (e.g. Apple HLS sample or any site with `.m3u8` in network tab).
-7. Click toolbar icon → verify media list in popup.
-8. Optional: hover video → floating ChaiSniffer icon → open in player (requires mpv path in Settings).
-9. Optional: Settings → disable **Show floating video icon** → icon should disappear without page reload.
+6. Optionally set **Download directory** in Settings.
+7. Visit a page with **public non-DRM HLS** (e.g. Apple HLS sample or any site with `.m3u8` in network tab).
+8. Click toolbar icon → verify media list in popup; optional download into the configured folder.
+9. Optional: hover video → floating ChaiSniffer icon → open in player (requires mpv path in Settings).
+10. Optional: Settings → disable **Show floating video icon** → icon should disappear without page reload.
 
 ---
 
